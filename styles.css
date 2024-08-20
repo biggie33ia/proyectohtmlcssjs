@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+    color: #333333;
+}
+
+header, footer {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #FF6B6B;
+}
+
+button {
+    background-color: #FF6B6B;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FFD166;
+}
+
+/* Estilos específicos para la tienda */
+.products .product-card {
+    border: 1px solid #CCCCCC;
+    padding: 20px;
+    margin: 10px;
+}
